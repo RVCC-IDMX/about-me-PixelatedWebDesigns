@@ -1,0 +1,77 @@
+/* Hello everyone! I am happy to be doing this CSS project. */
+
+body {
+    background-color: #FCF67E;
+    foreground-color: #5CEF67;
+    font-family: "Roboto Slab", serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
+    font-size: 150%;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .copyright-main {
+    font-family: monospace;
+    font-color: #ff0000;
+  }
+  
+  /* Hobbies */
+  #hobbies {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  /* Gallery */
+  #gallery img {
+    max-width:100%;
+  }
+  
+  /* Gallery tablet size */
+  
+  @media screen and (min-width: 60em) {
+  
+    #gallery figure {
+      display:grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    #gallery figcaption {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      margin-left: 1rem;
+    }
+  
+  }
+  
+  #gallery * {
+    border:1px solid black;
+  }
+  
+  /* Gallery full screen */
+  @media screen and (min-width: 100em) {
+  
+    #gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    #gallery hr {
+      display: none;
+    }
+  
+    #gallery h2 {
+      grid-column: 1/-1;
+    }
+  
+  }
