@@ -78,4 +78,6 @@ body {
 
   #formElements {
     display: grid;
+    color: red;
+    font-weight: bold;
   }
