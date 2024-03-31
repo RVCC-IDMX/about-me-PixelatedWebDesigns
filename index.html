@@ -72,9 +72,55 @@
             </figure>
         </section>
     <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/IjhQQpnNums?si=_eVaRLvFJ0NGwKfF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section id="form">
+        <h2>Contact Us</h2>
+        <form id="contactForm" name="contactForm">
+            <fieldset>
+                <legend>Contact Form</legend>
+                    <div id="formElements">
+                        <!-- Name -->
+                        <label for="name">Name (required)</label>
+                        <input type="text" id="name" name="name" required>
+                        <br>
+                        <!-- E-Mail -->
+                        <label for="email">E-mail (required)</label>
+                        <input type="text" id="email" name="email" required>
+                        <!-- Phone # -->
+                        <label for="phone">Phone Number (optional)</label>
+                        <input type="text" id="phone" name="phone">
+                        <!-- Phone type -->
+                        <label for="phonetype">Phone type (optional)</label>
+                        <select id="phonetype">
+                            <option value="Mobile">Mobile</option>
+                            <option value="Work">Work</option>
+                            <option value="Home">Home</option>
+                        </select>
+                        <!-- Message -->
+                        <label for="message">Message (optional)</label>
+                        <textarea id="message" rows="8"></textarea>
+                        <!-- Reply -->
+                        <fieldset>
+                            <legend>Would you like a reply?</legend>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="message-yes" name="reply">
+                                    <label for="message-yes">Yes, a reply would be nice.</label>
+                                    </input>
+                                </li>
+                                <li>
+                                    <input type="radio" id="message-no" name="reply">
+                                    <label for="message-no">No, thanks.</label>
+                                </li>
+                            </ul>
+                            <button type="submit"Submit!></button>
+                        </fieldset>
+                    </div>
+            </fieldset>
+        </form>
+    </section>
     </main>
     <footer class="copyright">
-        Copyright (C) 2024 Alexander Diaz
+        <h5>Copyright (C) 2024 Alexander Diaz</h5>
     </footer>
 </body>
 </html>
