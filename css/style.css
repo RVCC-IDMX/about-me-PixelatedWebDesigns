@@ -1,21 +1,18 @@
-/* Hello everyone! I am happy to be doing this CSS project. */
+/* Hello everyone! I am happy to be doing this CSS project, especially over virtual with Mr. Caruso
+as my professor this time. */
 
+/* basic HTML elements */
 body {
     background-color: #FCF67E;
     foreground-color: #5CEF67;
     font-family: "Roboto Slab", serif;
-  }
+  }  
   
-  h1, h2, h3, h4, h5 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto Slab", serif;
     font-size: 150%;
   }
-
-  h6 {
-    font-family: "Roboto Slab", serif;
-    font-size: 90%;
-  }
-
+  
   header {
     text-align: center;
   }
@@ -81,8 +78,63 @@ body {
   
   }
 
+/* define lowerHead to center and add emphasis by bolding the text */
+#lowerHead {
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+}
+
   #formElements {
     display: grid;
-    color: red;
-    font-weight: bold;
   }
+
+/* For the navigation bar */
+
+.navbar {
+	background-color: white;
+	color: gray;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	display: inline-block;
+}
+
+/* The navigation links */
+.navbar-links a {
+	color: whitesmoke;
+	background-attachment: #333;
+	font-size: 1.5rem;
+	padding: 1rem 1.25rem;
+	letter-spacing: 2px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+/* navigation links: concentrate on "hover" (when mouse is over) and "focus" states */
+.navbar-links a:hover, .navbar-links a:focus {
+	filter: invert(1);
+	border-radius: 10px;
+	outline: none;
+}
+
+/*  Navigation 'li' element (lists) */
+
+.navbar-links li {
+	list-style: none;
+	display: block;
+	padding 0.5em 0;
+}
+
+/* define CSS for navbar link elements specifically */
+.navbar-links a {
+	color: whitesmoke;
+	background-attachment: #333;
+	font-size: 1.5rem;
+	padding: 1rem 1.25;
+	letter-spacing: 2px;
+	text-decoration: none;
+	display: inline-block;
+}
