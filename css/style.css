@@ -4,14 +4,17 @@ as my professor this time. */
 /* basic HTML elements */
 body {
     background-color: #FCF67E;
-    foreground-color: #5CEF67;
     font-family: "Roboto Slab", serif;
   }  
   
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto Slab", serif;
-    font-size: 150%;
+  h1, h2, h3, h4, h5, h6 { /* make the headers red and monospace */
+  	 color: #ff0000;
+    font-family: monospace;
   }
+
+  ul {
+  	 font-size: 90%; /* to make sure headers aren't too "big" relative to the other font */
+  }  
   
   header {
     text-align: center;
@@ -32,7 +35,14 @@ body {
     flex-direction: column; 
     align-items: center;
   }
-  
+
+/* blog content (referred to as "lit") */
+  #lit {
+  	 color: blue;
+  	 font-style: italic;
+  }
+
+
   /* Gallery */
   #gallery img {
     max-width:100%;
