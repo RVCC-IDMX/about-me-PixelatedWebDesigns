@@ -8,7 +8,7 @@ body {
   }  
   
   h1, h2, h3, h4, h5, h6 { /* make the headers red and monospace */
-    color: #ff0000;
+  	 color: #ff0000;
     font-family: monospace;
   }
 
@@ -114,7 +114,7 @@ body {
 
 /* The navigation links */
 .navbar-links a {
-	color: #808080;
+	color: whitesmoke;
 	background-attachment: #333;
 	font-size: 1.5rem;
 	padding: 1rem 1.25rem;
@@ -136,4 +136,15 @@ body {
 	list-style: none;
 	display: block;
 	padding 0.5em 0;
+}
+
+/* define CSS for navbar link elements specifically */
+.navbar-links a {
+	color: whitesmoke;
+	background-attachment: #333;
+	font-size: 1.5rem;
+	padding: 1rem 1.25;
+	letter-spacing: 2px;
+	text-decoration: none;
+	display: inline-block;
 }
