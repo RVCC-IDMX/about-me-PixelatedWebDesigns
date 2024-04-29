@@ -66,6 +66,7 @@
                 <li>Music: I have been interested in music for a while. I am in a theater club where I perform. We do songs, and sometimes also do presentations with music.</li>
                 <li>Work out: even though I do not work out very much, I still try my best to get out and do it.</li>
                 <li>Political Analysis: I try to predict elections, months and sometimes years in advance. Though I am a left-wing person, I try to leave that out of when I make my predictions and look at the data like with other things I do.</li>
+                <li>Photography: When I go on trips (or even within my own home), I like to take pictures of things because I enjoy looking at things. I often like to design the pictures in creative ways.</li>
             </ul>
         </section>
 		  <section id="lit">
@@ -74,10 +75,15 @@
 		  <ul>
 			   <li><b>Asynchronous</b> I don't have to come in. Unlike many other classes, I feel that is a good thing because it allows me to work on things at my own pace more, and carve out time to work on it more fully.</li>
 			   <li><b>HTML-based</b> Even though HTML is often seen as a simplistic language, it has far-reaching applications, mostly as supporting the backbone of web design. HTML is a good start for many to learn programming in general.</li>
-			   <li><b>Practical ideas</b> In the past, I have worked on similar projects, including for a web class in high school that covered some of the topics we are talking about right now.</li>		  
-		  </ul> 
-		  <h3 class="blog-subheader">Free Time</h3>
-		  		I have a lot of free time, and I think I have had too much free time since I finished high school.
+			   <li><b>CSS</b> I am glad to be learning about CSS, which is another important component of web design. CSS is a Web development language that is designed to allow designers and developers to change up their websites by adding designs. The designs include changing fonts, colors, sizes, shapes, and more.</li> 
+			   <li><b>Practical ideas</b> In the past, I have worked on similar projects, including for a web class in high school that covered some of the topics we are talking about right now. However, I feel that in some ways, this class (despite being an intro class) goes deeper than the other classes that I have taken regarding Web design and development. <!-- add description list here? --></li>
+		  </ul>
+		  <h3 class="blog-subheader">Fun Facts</h3>
+		  <ol id="fun-facts">
+		  <ul>If the sun became a black hole, the orbits of the planets would be unchanged assuming its mass stayed the same ... but the darkness would freeze the solar system.</ul>
+		  <ul>The visible light spectrum contains electromagnetic energy with wavelengths between around 400 to 700 nanometers.</ul>
+		  <ul></ul>
+		  </ol>
 		  <h3 class="blog-subheader">What I Want To Do</h3>
 		  </section>
 		  <!-- Bigger/Macro Blog -->
@@ -90,8 +96,17 @@
 				<h3><i>Part 2:</i> CSS inclusion (<i>class</i> or <i>id</i>)</h3>
 				Generally speaking, in order to incorporate code into CSS, we need to set a property to link it to CSS, namely <i>class</i> or <i>id</i>. These elements tell CSS which parts of the HTML to interact with.
 				<h3>Connecting the CSS file with <i>link</i></h3>
-				While it is possible to create a CSS <i>within</i> a page by using a <i>style</i> tag, most web developers generally recommend using a separate file, as we do on this particular mini-site.
+				While it is possible to create a CSS <i>within</i> a page by using a <i>style</i> tag, most web developers generally recommend using a separate file, as we do on this particular mini-site. Once you have configured the HTML and CSS files, these are the steps that you should do to get this working.
 		  		<h2>CSS</h2>
+		  		In order to make the CSS work, you need to make sure that you define elements. We will focus on the overlay section, which is used to help the content transition between each other. <!-- continue this section later -->
+		  		<h3><i>position</i></h3>
+		  		We should declare the <i>position</i> of the webpage in order to let us .
+		  		<h3><i>height</i> and <i>width</i></h3>
+		  		In order to say where on the image you want this to go, you are going to need to 
+		  		<h3><i>transition</i></h3>
+		  		This part of the code is supposed to allow to specify the manner in which transition the picture from one color (or image) to the other. This is done by slowly (or quickly) fading the picture into a certain picture. This is an example: <i>transition: 0.5s ease;</i>. The "0.5s" indicates the amount of time that it takes to transition, from beginning to end. <br> The "ease" in transitioning means that the image slows down, and then speeds back up. It is generally recommended for transitions to take 0.2 to 0.5 seconds.
+		  		<h2>Example Code</h2>
+		  		<!-- put inline iframe base64 here -->
 		  </section>
         <!-- Image Gallery -->
         <section id="gallery">
@@ -99,20 +114,23 @@
             <hr>
             <figure>
                 <img src="images-2/pseudo-ipod-640w.jpg">
-                <figcaption>My new 128 GB "iPod nano"</figcaption>
+                <br>
+                <figcaption style="font-size: 100%;">My new 128 GB "iPod nano" that has songs that I like.</figcaption>
             </figure>
             <hr>
             <figure>
                 <img src="images-2/computer-background-640w.jpg">
-                <figcaption>My computer with the screensaver shown</figcaption>
+                <br>
+                <figcaption style="font-size: 100%;">My computer with the screensaver shown</figcaption>
             </figure>
             <hr>
             <figure>
                 <img src="images-2/percy-book-640w.jpg">
-                <figcaption>Percy Jackson Book</figcaption>
+                <br>
+                <figcaption style="font-size: 100%;">Percy Jackson Book</figcaption>
             </figure>
         </section>
-    <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/IjhQQpnNums?si=_eVaRLvFJ0NGwKfF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe id="myVideo" width="640" height="480" src="https://www.youtube.com/embed/IjhQQpnNums?si=_eVaRLvFJ0NGwKfF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <section id="form">
         <h2 id="contact">Contact Us</h2>
         <form id="contactForm" name="contactForm">
@@ -146,14 +164,13 @@
                                 <li>
                                     <input type="radio" id="message-yes" name="reply">
                                     <label for="message-yes">Yes, a reply would be nice.</label>
-                                    </input>
                                 </li>
                                 <li>
                                     <input type="radio" id="message-no" name="reply">
                                     <label for="message-no">No, thanks.</label>
                                 </li>
                             </ul>
-                            <button type="submit"Submit!></button>
+                            <button type="submit">Submit!</button>
                         </fieldset>
                     </div>
             </fieldset>
