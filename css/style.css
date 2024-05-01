@@ -8,7 +8,7 @@ body {
   }  
   
   h1, h2, h3, h4, h5, h6 { /* make the headers red and monospace */
-    color: #ff0000;
+  	 color: #ff0000;
     font-family: monospace;
   }
 
@@ -26,7 +26,7 @@ body {
   
   .copyright-main {
     font-family: monospace;
-    font-color: #ff0000;
+    color: #ff0000;
   }
   
   /* Hobbies */
@@ -47,7 +47,13 @@ body {
   #gallery img {
     max-width:100%;
   }
-  
+
+#fun-facts {
+	color: purple;
+	font-size: 110%;
+	font-style: oblique;
+}  
+
   /* Gallery tablet size */
   
   @media screen and (min-width: 60em) {
@@ -114,7 +120,7 @@ body {
 
 /* The navigation links */
 .navbar-links a {
-	color: #808080;
+	color: greenyellow;
 	background-attachment: #333;
 	font-size: 1.5rem;
 	padding: 1rem 1.25rem;
@@ -135,5 +141,34 @@ body {
 .navbar-links li {
 	list-style: none;
 	display: block;
-	padding 0.5em 0;
+	padding: 0.5em 0;
+}
+
+/* define CSS for navbar link elements specifically */
+.navbar-links a {
+	color: greenyellow;
+	background-attachment: #333;
+	font-size: 1.5rem;
+	padding: 1rem 1.25;
+	letter-spacing: 2px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+figcaption {
+	color: blue;
+	font-weight: bold;
+}
+
+coderef {
+  font-size: 95%;
+  font-family: monospace;
+  color: purple;
+  font-weight: bold;
+}
+
+#myVideo {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
 }
